@@ -1,0 +1,13 @@
+main .subtitle {
+	margin: 50px auto 25px auto;
+
+main .button{    
+        width: 500px;    
+        height: 45px;    
+        background-color: #FFFFFF;    
+        border: solid 2px;     
+        border-color: #000000;    
+        border-radius: 150px;    
+        padding: 20px;    
+        margin: 0 auto 25px;    
+}    

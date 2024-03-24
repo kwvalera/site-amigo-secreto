@@ -1,0 +1,125 @@
+html, body {
+	margin: 0px;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	display: inline-flex;
+}
+
+header .left-pos {
+	width: 600px;
+	text-align: left;
+	background-color: #ACACAC;
+	border: solid 1px;
+	border-color: #000000;
+	border-radius: 0px 0px 50px 0px;
+	font-size: 16px;
+	font-style: normal;
+}
+
+header .left-pos .title {
+	margin: auto;	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+header .right-pos {
+	width: 30%;
+	margin: auto;
+	margin-right: 0px;
+	text-align: right;
+	display: inline-flex;
+}
+
+header .right-pos .create {
+	width: 65%;
+	margin: auto;
+	margin-top: 0px;
+	margin-right: 15px;
+	background-color: #ACACAC;
+	border: solid 1px;
+	border-color: #000000;
+	border-radius: 0px 0px 50px 50px;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+}
+
+header .right-pos .account {
+	width: 35%;
+	margin-top: 0px;
+	background-color: #55AAFF;
+	border: solid 1px;
+	border-color: #000000;
+	border-radius: 0px 0px 0px 50px;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+}
+
+header .right-pos .account img {
+	height: 75px;
+	width: 75px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+main {
+	display: grid;
+	height: 77.7vh;
+	text-align: center;
+
+}
+
+footer {
+	display: inline-flex;
+	width: 100%;
+	height: 100px;
+	background-color: #ACACAC;
+	border-top: solid 5px;
+	border-color: #000000;
+}
+
+footer .separator {
+	height: 85%;
+	border: solid 3px;
+	border-color: #000000;
+	margin: 10px;
+}
+
+footer .logo img {
+	width: 75px;
+	height: 75px;
+	margin: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+footer .contacts {
+	display: inline-flex;
+	vertical-align: center;
+	width 35%;
+}
+
+footer .contacts img {
+	width: 25px;
+	height: 25px;
+	margin: auto;
+}
+
+footer .email {
+
+}
+
+footer .email img {
+	width: 25px;
+	height: 25px;
+	margin: auto;
+}
+
+footer .address {
+
+}
