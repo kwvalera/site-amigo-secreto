@@ -1,13 +1,29 @@
-main .subtitle {
-	margin: 50px auto 25px auto;
-
-main .button{    
+main {
+        margin: 0;
+        display: flex;
+        flex-direction: column; /* Changed to column */
+        justify-content: center;
+        align-items: center;
+        height: 72.5vh; /* Adjust the value as needed */
+    }
+    
+    main .subtitle {
+        margin: 50px auto 25px auto;
+        text-align: center; /* Centers the text horizontally */
+    }
+    
+    main .options {    
         width: 500px;    
-        height: 45px;    
+        height: auto; /* Adjusted to 'auto' to accommodate inner content */
         background-color: #FFFFFF;    
-        border: solid 2px;     
-        border-color: #000000;    
+        border: solid 2px #000000; /* Combined border style and color */   
         border-radius: 150px;    
         padding: 20px;    
-        margin: 0 auto 25px;    
-}    
+        margin: 0 auto 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
